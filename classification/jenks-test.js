@@ -50,6 +50,6 @@ Tinytest.add('classification - jenks', function (test) {
   };
 
   var result = turf.jenks(points, 'population', 3);
-  var expected = [100, 100, 200, 600];
+  var expected = [100,200,600,600];
   test.equal(result, expected);
 });
