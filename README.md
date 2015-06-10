@@ -1,5 +1,5 @@
 # turfjs-server for Meteor
-This package is a simple wrapper for<br>[turf](https://github.com/turfjs/turf). Manipulate GeoJSON objects,<br>similar to PostGIS.
+This package is a simple wrapper for<br>[turf](https://github.com/turfjs/turf) on the server. Manipulate GeoJSON objects,<br>similar to PostGIS.
 
 [![Build Status](https://travis-ci.org/yauh/turfjs-server.svg)](https://travis-ci.org/yauh/turfjs-server)
 
@@ -12,7 +12,7 @@ Install the package via command line:
 $ meteor add yauh:turfjs-server
 ```
 
-**Note** `turf` is only available on the server, not on the client, even<br>though it could be used there as well.
+**Note** `turf` is only available on the server, not on the server. If you need it on the client install `yauh:turfjs-client`. To use it in both environments add the umbrella package `yauh:turfjs`.
 
 The package introduces a new global called `turf` which knows these<br>methods. See [the official docs](http://turfjs.org/static/docs/) for the<br>correct syntax and parameters or check out the test files inside this<br>package.
 
